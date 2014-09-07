@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{listings}
+\usepackage{graphicx}
+
+% settings for listings
+\lstset{breaklines=true,breakatwhitespace=true,captionpos=top,numbers=left,frame=l,title=\lstname}
+
+\begin{document}
+\title{3 Arm Kinematics}
+\author{Noah Harvey}
+\maketitle
+\section*{Source Code}
+\lstinputlisting[language=Octave]{../../func/fkin.m}
+\lstinputlisting[language=Octave]{../../func/rkin.m}
+\lstinputlisting[language=Octave]{../../func/rkin3.m}
+\lstinputlisting[language=Octave]{../../script/asn4.m}
+\section*{Output of asn4.m}
+\includegraphics{asn4out.jpg}
+\end{document}
